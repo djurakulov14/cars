@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+}
+
+.container {
+    width: 1224px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 40px;
+}
+
+.less {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.show1, .show2,.show3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #0071E3;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.box {
+    width: 282px;
+    height: 161px;
+    background: #F0F0F0;
+    border: 1px solid #007FFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    transition: 200ms;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.company , .year {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.btn_more {
+    background: #0071E3;
+    border-radius: 4px;
+    width: 232px;
+    height: 42px;
+    border: none;
+    color: white;
+}
+
+.add1, .add2, .add3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
